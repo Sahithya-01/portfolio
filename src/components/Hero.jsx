@@ -4,7 +4,7 @@ import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className="bg-sky-100 py-24 ">
+    <section className="bg-sky-100 py-24 " id="home">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Sahithya</h1>
@@ -15,11 +15,16 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/Sahithya-01">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/sahithya-hanumandla-a5a21918b/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            </a>
+            <a href="../../public/Resume-v2.pdf" download>
+              <button className="bg-sky-500 h-8  text-white px-2 rounded-md hover:bg-sky-700 duration-300">
+                Resume
+              </button>
             </a>
           </div>
         </article>
@@ -30,7 +35,7 @@ const Hero = () => {
           />
         </article>
       </div>
-    </div>
+    </section>
   )
 }
 

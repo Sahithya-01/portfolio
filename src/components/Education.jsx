@@ -46,7 +46,7 @@ const Education = () => {
                   B.V Raju Institute of Technology
                 </p>
                 <p className="text-gray-500">Jul 2017 - May 2021</p>
-                <p>CGPA: 9.75/10</p>
+                <p>CGPA: 3.9/4</p>
               </div>
             </div>
             <p className="mt-4 text-gray-700">

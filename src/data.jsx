@@ -137,8 +137,9 @@ export const projects = [
       />
     ),
     url: 'https://sahithya-unsplash-images.netlify.app/',
-    github: 'https://sahithya-unsplash-images.netlify.app/',
+    github: 'https://github.com/Sahithya-01/unsplash-images',
     title: 'Unsplash Images',
+    tags: ['Unsplash API', 'React.js', 'Theming', 'React Query'],
     text: `This project is a React application that allows users to search for images using the Unsplash API and view them in a gallery format. The application supports a dark theme toggle and remembers the user's theme preference using local storage. The project also leverages React Query for efficient data fetching and caching`,
   },
   {
@@ -150,9 +151,10 @@ export const projects = [
         className="w-full object-cover rounded-t-lg h-64 "
       />
     ),
-    url: 'https://github.com/Sahithya-01/MERN-PROJECT',
+    url: '',
     github: 'https://github.com/Sahithya-01/MERN-PROJECT',
     title: 'My Blog',
+    tags: ['MERN Stack', 'Firebase'],
     text: 'The project involves a MERN stack blog application. The project includes various pages for navigation. Key functionalities are loading articles, displaying them, allowing users to upvote articles using an upvote button, and enabling users to add comments through a dedicated comment form.',
   },
   {
@@ -164,10 +166,11 @@ export const projects = [
         className="w-full object-cover rounded-t-lg h-64 "
       />
     ),
-    url: 'https://github.com/Sahithya-01/flutter_projects/tree/master/recipe_magic',
+    url: '',
     github:
       'https://github.com/Sahithya-01/flutter_projects/tree/master/recipe_magic',
     title: 'Recipe Magic',
+    tags: ['Flutter', 'Dart', 'dio', 'dummyjson'],
     text: `A cross-platform Flutter app for exploring and managing recipes, showcasing fundamental concepts like Widgets, State Management, and Navigation.`,
   },
   {
@@ -183,6 +186,7 @@ export const projects = [
     github:
       'https://github.com/Sahithya-01/flutter_projects/tree/master/recipe_magic',
     title: 'Backroads App',
+    tags: ['React.js', 'Smooth Scroll', 'Responsive Web Design'],
     text: 'Backroads App is a dynamic and responsive React application . It features smooth scrolling navigation, dynamically generated page links, and social media integration. With sections for showcasing services, tours, and more, Backroads App offers a modern and user-friendly experience for its audience.',
   },
 ]
