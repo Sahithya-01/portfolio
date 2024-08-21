@@ -9,8 +9,11 @@ const ProjectsCard = ({ url, icon, github, title, tags, text }) => {
         <p className="mt-4 text-sm text-slate-700 leading-loose">{text}</p>
         <div className="flex justify-between">
           <div className="mt-4 flex gap-x-4">
-            {tags.map((tag) => [
-              <span className="inline-block px-2 py-1 text-xs text-sky-800 ">
+            {tags.map((tag, index) => [
+              <span
+                className="inline-block px-2 py-1 text-xs text-sky-800"
+                key={index}
+              >
                 {tag}
               </span>,
             ])}

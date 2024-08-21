@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
-import gsuLogo from '../assets/gsu.jpeg'
-import bvritLogo from '../assets/bvrit.png'
+import gsuLogo from '../../public/assets//gsu.jpeg'
+import bvritLogo from '../../public/assets//bvrit.png'
 const Education = () => {
   return (
     <section className="py-20 align-element" id="education">

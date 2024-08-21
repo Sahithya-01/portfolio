@@ -8,21 +8,22 @@ import {
   FaReact,
   FaJava,
 } from 'react-icons/fa'
-import flutterSvg from './assets/icon_flutter_solid.svg'
-import mondoDbsvg from './assets/MongoDB_White.svg'
-import firebaseSvg from './assets/Logomark_Monochrome_Optimized_White.svg'
-import gaSvg from './assets/brand-google-analytics.svg'
-import reactnativeSvg from './assets/react.svg'
-import androidstudioSvg from './assets/androidstudio-svgrepo-com.svg'
-import figmaSvg from './assets/figma-logo-svgrepo-com.svg'
-import awsSvg from './assets/aws-svgrepo-com.svg'
-import azureSvg from './assets/Pictogrammers-Material-Microsoft-azure-devops.svg'
-import kubernetesSvg from './assets/kubernetes.svg'
-import tailwindSvg from './assets/tailwind.svg'
-import unsplash from './assets/unsplash.png'
-import backroads from './assets/backroads.png'
-import myblog from './assets/myblog.png'
-import recipemagic from './assets/recipe-magic.png'
+
+import flutterSvg from '../public/assets/icon_flutter_solid.svg'
+import mondoDbsvg from '../public/assets/MongoDB_White.svg'
+import firebaseSvg from '../public/assets/Logomark_Monochrome_Optimized_White.svg'
+import gaSvg from '../public/assets/brand-google-analytics.svg'
+import reactnativeSvg from '../public/assets/react.svg'
+import androidstudioSvg from '../public/assets/androidstudio-svgrepo-com.svg'
+import figmaSvg from '../public/assets/figma-logo-svgrepo-com.svg'
+import awsSvg from '../public/assets/aws-svgrepo-com.svg'
+import azureSvg from '../public/assets/Pictogrammers-Material-Microsoft-azure-devops.svg'
+import kubernetesSvg from '../public/assets/kubernetes.svg'
+import tailwindSvg from '../public/assets/tailwind.svg'
+import unsplash from '../public/assets/unsplash.png'
+import backroads from '../public/assets/backroads.png'
+import myblog from '../public/assets/myblog.png'
+import recipemagic from '../public/assets/recipe-magic.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -139,7 +140,7 @@ export const projects = [
     url: 'https://sahithya-unsplash-images.netlify.app/',
     github: 'https://github.com/Sahithya-01/unsplash-images',
     title: 'Unsplash Images',
-    tags: ['Unsplash API', 'React.js', 'Theming', 'React Query'],
+    tags: ['Unsplash API', 'React.js', 'React Query'],
     text: `This project is a React application that allows users to search for images using the Unsplash API and view them in a gallery format. The application supports a dark theme toggle and remembers the user's theme preference using local storage. The project also leverages React Query for efficient data fetching and caching`,
   },
   {

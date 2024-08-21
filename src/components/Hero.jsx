@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../assets/profilePicture.jpeg'
+import profileImg from '../../public/assets/profilePicture.jpeg'
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/sahithya-hanumandla-a5a21918b/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="../../public/Resume-v2.pdf" download>
+            <a href="/Resume-v2.pdf" download>
               <button className="bg-sky-500 h-8  text-white px-2 rounded-md hover:bg-sky-700 duration-300">
                 Resume
               </button>
