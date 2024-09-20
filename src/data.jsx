@@ -24,6 +24,7 @@ import unsplash from '../public/assets/unsplash.png'
 import backroads from '../public/assets/backroads.png'
 import myblog from '../public/assets/myblog.png'
 import recipemagic from '../public/assets/recipe-magic.png'
+import NextJS from '../public/assets/NextJS.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -173,6 +174,21 @@ export const projects = [
     title: 'Recipe Magic',
     tags: ['Flutter', 'Dart', 'dio', 'dummyjson'],
     text: `A cross-platform Flutter app for exploring and managing recipes, showcasing fundamental concepts like Widgets, State Management, and Navigation.`,
+  },
+  {
+    id: nanoid(),
+    icon: (
+      <img
+        src={NextJS}
+        alt="NextJS"
+        className="w-full object-cover rounded-t-lg h-64 "
+      />
+    ),
+    url: '',
+    github: 'https://github.com/Sahithya-01/NextJs',
+    title: 'Next JS',
+    tags: ['Next JS', 'React JS', 'routing'],
+    text: `This Next.js app is a modern web application with dynamic routing, optimized performance, and enhanced SEO using TailwindCSS, responsive images, and Google Fonts. It features a clean folder structure, server-side data fetching, and an interactive Navbar for easy navigation.`,
   },
   {
     id: nanoid(),
