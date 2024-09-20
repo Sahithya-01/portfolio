@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/sahithya-hanumandla-a5a21918b/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="/Resume-v2.pdf" download>
+            <a href="/Final_resume.pdf" download>
               <button className="bg-sky-500 h-8  text-white px-2 rounded-md hover:bg-sky-700 duration-300">
                 Resume
               </button>
