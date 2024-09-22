@@ -2,29 +2,30 @@ import { nanoid } from 'nanoid'
 import {
   FaAngular,
   FaHtml5,
+  FaJava,
   FaJs,
   FaNodeJs,
   FaPython,
   FaReact,
-  FaJava,
 } from 'react-icons/fa'
 
-import flutterSvg from '../public/assets/icon_flutter_solid.svg'
-import mondoDbsvg from '../public/assets/MongoDB_White.svg'
 import firebaseSvg from '../public/assets/Logomark_Monochrome_Optimized_White.svg'
-import gaSvg from '../public/assets/brand-google-analytics.svg'
-import reactnativeSvg from '../public/assets/react.svg'
-import androidstudioSvg from '../public/assets/androidstudio-svgrepo-com.svg'
-import figmaSvg from '../public/assets/figma-logo-svgrepo-com.svg'
-import awsSvg from '../public/assets/aws-svgrepo-com.svg'
+import mondoDbsvg from '../public/assets/MongoDB_White.svg'
+import NextJS from '../public/assets/NextJS.png'
 import azureSvg from '../public/assets/Pictogrammers-Material-Microsoft-azure-devops.svg'
+import WebWise from '../public/assets/WebWise.png'
+import androidstudioSvg from '../public/assets/androidstudio-svgrepo-com.svg'
+import awsSvg from '../public/assets/aws-svgrepo-com.svg'
+import backroads from '../public/assets/backroads.png'
+import gaSvg from '../public/assets/brand-google-analytics.svg'
+import figmaSvg from '../public/assets/figma-logo-svgrepo-com.svg'
+import flutterSvg from '../public/assets/icon_flutter_solid.svg'
 import kubernetesSvg from '../public/assets/kubernetes.svg'
+import myblog from '../public/assets/myblog.png'
+import reactnativeSvg from '../public/assets/react.svg'
+import recipemagic from '../public/assets/recipe-magic.png'
 import tailwindSvg from '../public/assets/tailwind.svg'
 import unsplash from '../public/assets/unsplash.png'
-import backroads from '../public/assets/backroads.png'
-import myblog from '../public/assets/myblog.png'
-import recipemagic from '../public/assets/recipe-magic.png'
-import NextJS from '../public/assets/NextJS.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -158,6 +159,20 @@ export const projects = [
     title: 'My Blog',
     tags: ['MERN Stack', 'Firebase'],
     text: 'The project involves a MERN stack blog application. The project includes various pages for navigation. Key functionalities are loading articles, displaying them, allowing users to upvote articles using an upvote button, and enabling users to add comments through a dedicated comment form.',
+  },
+  {
+    id: nanoid(),
+    icon: (
+      <img
+        src={WebWise}
+        alt="Web Wise"
+        className="w-full object-cover rounded-t-lg h-64 "
+      />
+    ),
+    url: '',
+    github: 'https://github.com/Sahithya-01/WebWise-Chatbot',
+    tags: ['Next.Js', 'Redis', 'Chatbot', 'AI'],
+    text: `A Next.js chat application featuring a dynamic chat interface that integrates with an AI backend and uses Redis for session management. Users can interact with the chat by navigating to specific URLs. The application includes components for handling user input, displaying messages, and managing chat sessions.`,
   },
   {
     id: nanoid(),
