@@ -171,6 +171,7 @@ export const projects = [
     ),
     url: '',
     github: 'https://github.com/Sahithya-01/WebWise-Chatbot',
+    title: 'Web Wise Chatbot',
     tags: ['Next.Js', 'Redis', 'Chatbot', 'AI'],
     text: `A Next.js chat application featuring a dynamic chat interface that integrates with an AI backend and uses Redis for session management. Users can interact with the chat by navigating to specific URLs. The application includes components for handling user input, displaying messages, and managing chat sessions.`,
   },
