@@ -26,6 +26,7 @@ import reactnativeSvg from '../public/assets/react.svg'
 import recipemagic from '../public/assets/recipe-magic.png'
 import tailwindSvg from '../public/assets/tailwind.svg'
 import unsplash from '../public/assets/unsplash.png'
+import promptsync from '../public/assets/PromptSync.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -130,6 +131,21 @@ export const skills = [
 ]
 
 export const projects = [
+  {
+    id: nanoid(),
+    icon: (
+      <img
+        src={promptsync}
+        alt="PromptSync"
+        className="w-full object-cover rounded-t-lg h-64 "
+      />
+    ),
+    url: '',
+    github: 'https://github.com/Sahithya-01/PromptSync',
+    title: 'PromptSync',
+    tags: ['React.js', 'Lexical', 'Google Generative AI'],
+    text: `A real-time collaborative text editor that enables seamless multi-user editing with live presence detection and AI-powered insights. Built with React, Yjs, and Firebase, it uses CRDTs for conflict-free syncing and integrates Google Generative AI for content-based prompts and responses.`,
+  },
   {
     id: nanoid(),
     icon: (
