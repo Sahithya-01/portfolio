@@ -140,7 +140,7 @@ export const projects = [
         className="w-full object-cover rounded-t-lg h-64 "
       />
     ),
-    url: '',
+    url: 'https://promptsync.netlify.app/',
     github: 'https://github.com/Sahithya-01/PromptSync',
     title: 'PromptSync',
     tags: ['React.js', 'Lexical', 'Google Generative AI'],
