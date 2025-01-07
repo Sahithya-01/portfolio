@@ -1,19 +1,15 @@
-import SectionTitle from './SectionTitle'
-import * as React from 'react'
-import Timeline from '@mui/lab/Timeline'
-import TimelineItem from '@mui/lab/TimelineItem'
-import TimelineSeparator from '@mui/lab/TimelineSeparator'
-import TimelineConnector from '@mui/lab/TimelineConnector'
-import TimelineContent from '@mui/lab/TimelineContent'
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
-import TimelineDot from '@mui/lab/TimelineDot'
-import FastfoodIcon from '@mui/icons-material/Fastfood'
-import LaptopMacIcon from '@mui/icons-material/LaptopMac'
-import HotelIcon from '@mui/icons-material/Hotel'
-import RepeatIcon from '@mui/icons-material/Repeat'
-import Typography from '@mui/material/Typography'
 import BusinessSharpIcon from '@mui/icons-material/BusinessSharp'
 import SchoolIcon from '@mui/icons-material/School'
+import Timeline from '@mui/lab/Timeline'
+import TimelineConnector from '@mui/lab/TimelineConnector'
+import TimelineContent from '@mui/lab/TimelineContent'
+import TimelineDot from '@mui/lab/TimelineDot'
+import TimelineItem from '@mui/lab/TimelineItem'
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
+import TimelineSeparator from '@mui/lab/TimelineSeparator'
+import Typography from '@mui/material/Typography'
+import * as React from 'react'
+import SectionTitle from './SectionTitle'
 
 const Experience = () => {
   return (
@@ -40,7 +36,7 @@ const Experience = () => {
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
               <Typography variant="h6" component="span">
-                Graduate Teaching & Administrative Assistant
+                Graduate Research Assistant
               </Typography>
               <Typography>Georgia State University</Typography>
             </TimelineContent>
@@ -101,7 +97,7 @@ const Experience = () => {
             </div>
             <div className="w-2/3">
               <h3 className="text-lg font-semibold">
-                Graduate Teaching & Administrative Assistant
+                Graduate Research Assistant
               </h3>
               <p className="text-gray-700">Georgia State University</p>
             </div>
