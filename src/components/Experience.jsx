@@ -25,6 +25,29 @@ const Experience = () => {
               variant="body2"
               color="text.secondary"
             >
+              Jan 2025 - Present
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector sx={{ bgcolor: 'text.secondary' }} />
+              <TimelineDot color="primary" variant="outlined">
+                <BusinessSharpIcon />
+              </TimelineDot>
+              <TimelineConnector sx={{ bgcolor: 'text.secondary' }} />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '12px', px: 2 }}>
+              <Typography variant="h6" component="span">
+                Software Engineer
+              </Typography>
+              <Typography>CommonThread AI</Typography>
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: 'auto 0' }}
+              variant="body2"
+              color="text.secondary"
+            >
               Jan 2023 - Apr 2024
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -41,6 +64,7 @@ const Experience = () => {
               <Typography>Georgia State University</Typography>
             </TimelineContent>
           </TimelineItem>
+
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
@@ -63,6 +87,7 @@ const Experience = () => {
               <Typography>Tata Consultancy Services</Typography>
             </TimelineContent>
           </TimelineItem>
+
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
@@ -91,7 +116,17 @@ const Experience = () => {
       {/* Card layout for smaller screens */}
       <div className="lg:hidden flex flex-col p-4">
         <div className="flex flex-col gap-4">
-          <div className="flex items-start  pb-4">
+          <div className="flex items-start pb-4">
+            <div className="w-1/3 text-gray-600 font-semibold">
+              Jan 2025 - Present
+            </div>
+            <div className="w-2/3">
+              <h3 className="text-lg font-semibold">Software Engineer</h3>
+              <p className="text-gray-700">CommonThread AI</p>
+            </div>
+          </div>
+
+          <div className="flex items-start pb-4">
             <div className="w-1/3 text-gray-600 font-semibold">
               Jan 2023 - Apr 2024
             </div>
@@ -103,7 +138,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex items-start  pb-4">
+          <div className="flex items-start pb-4">
             <div className="w-1/3 text-gray-600 font-semibold">
               Aug 2021 - Dec 2022
             </div>
